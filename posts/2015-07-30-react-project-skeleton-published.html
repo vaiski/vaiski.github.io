@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/prism.css"><link rel="stylesheet" href="/css/main.css"></head><body><div id="container"><div id="page-main"><h1>Kickstarting React.js Projects</h1><blockquote>
+<h3>TL;DR</h3><p><a href="https://github.com/vaiski/react-project-skeleton">React project skeleton</a> published
+at Github. Clone it, use it, break it, tweak it - then, repeat.</p>
+</blockquote>
+<p>If you&#39;re like me, you often find yourself playing with new tech and creating small applications or scripts for your own amusement. Usually, speed is the key when it comes to sudden inspiration. That&#39;s why <a href="http://facebook.github.io/react/">React</a> is my library of choice nowadays for projects from rapid prototyping to production-ready applications when it comes to single-page applications (SPAs).</p>
+<!-- more -->
+<p><img src="/img/posts/flux-simple-f8-diagram-with-client-action-1300w.png" alt="Flux data flow">
+<small>(source: <a href="https://facebook.github.io/flux/docs/overview.html">Facebook&#39;s Flux architecture</a>)</small></p>
+<p>Thanks to React, creating a SPA is fairly straightforward; your representation markup and associated event handlers live in a same file. Sprinkle some <a href="https://facebook.github.io/flux/">Flux</a> actions and dispatchers on it and light up your stores and watch as the information drives nicely down your newly built one-way lane.</p>
+<p><img src="/img/posts/TRON-Lightcycle-Race-820x420.jpg" alt="Tron Race">
+<small>(source: <a href="http://www.slashgear.com/fcc-net-neutrality-powers-struck-down-by-federal-court-14313135/">Slashgear</a>)</small></p>
+<h2>Introducing React Project Skeleton</h2><p>Crafting the project itself, as much as I like it, usually slows me down even down to that point where my inspiration has flowed down the drain and I sit only with an empty project structure trying to remember what I actually wanted to do. Creating a project template was my first step towards <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRYness</a> in my hobby projects.</p>
+<p><a href="https://github.com/vaiski/react-project-skeleton">React project skeleton</a> combines my favourite technologies in SPA development: ES6, React, Flux, Backbone, Gulp and Mocha. You can grab the template and start playing with it by running just a handful of commands (assuming you have Node.js/io.js installed): </p>
+<pre><code class="language-shell">$ git clone -o react-project-skeleton -b master --single-branch \
+      https://github.com/vaiski/react-project-skeleton.git MyApp
+$ npm install -g gulp
+$ npm install
+$ gulp
+</code></pre>
+<p>The project builds and opens up a new browser to live preview your changes.</p></div><div id="comments"><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES * * */
+var disqus_shortname = 'vaiskiblog';
+var disqus_identifier = window.location.pathname;
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script><noscript><Please>enable JavaScript to view the </Please><a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript></div></div><script type="text/javascript" src="/js/prism.js"></script></body></html>
